@@ -1,0 +1,107 @@
+.article-box h1,
+.article-box h2,
+.article-box h3,
+.article-box h4,
+.article-box h5,
+.article-box h6 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: normal;
+}
+.article-box h1:first-child,
+.article-box h2:first-child,
+.article-box h3:first-child,
+.article-box h4:first-child,
+.article-box h5:first-child,
+.article-box h6:first-child {
+  margin-top: 0;
+}
+.article-box strong {
+  font-weight: 700;
+  color: #0a1e30;
+}
+.article-box em {
+  font-style: italic;
+  color: #2b4b6f;
+}
+.article-box u {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: #7a9fc2;
+}
+.article-box s {
+  color: #7e8c9b;
+}
+.article-box ul li,
+.article-box ol li {
+  margin-bottom: 0.4em;
+}
+.article-box ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.article-box ol li:before {
+  display: none;
+}
+.article-box ol li::marker {
+  color: currentColor;
+  font-weight: 600;
+}
+.article-box code {
+  background: #eef3f9;
+  padding: 0.2em 0.45em;
+  border-radius: 8px;
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  font-size: 0.95em;
+  color: #1e3a5e;
+  border: 1px solid #dae6f0;
+  white-space: nowrap;
+}
+.article-box pre {
+  background: #f3f7fc;
+  border: 1px solid #d0ddee;
+  border-radius: 16px;
+  padding: 1.2em 1.5em;
+  margin: 1.4em 0;
+  overflow-x: auto;
+  font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #1d2e40;
+  tab-size: 4;
+}
+.article-box pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.article-box hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #cbdae8, #e2ecf7, #cbdae8);
+  margin: 2.2em 0;
+  border-radius: 2px;
+}
+.article-box table {
+	width: 100%;
+	max-width: 100%;
+}
+.article-box .tbl-inner-wrap table {
+	min-width: 480px;
+	margin: 0;
+}
+.article-box .tbl-inner-wrap {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin: 1.5em 0;
+}
+.article-box .tbl-inner-wrap:last-child {
+	margin-bottom: 0;
+}
+.article-box .tbl-inner-wrap:first-child {
+	margin-top: 0;
+}
